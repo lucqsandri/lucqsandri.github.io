@@ -1,0 +1,159 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: lightgray;
+  color: #1e3a5f;
+}
+
+.welcome-box {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 20px 0;
+  background-image: url("images/weather.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+hr {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.css-images {
+  display: flex;
+  justify-content: center;
+}
+
+.css-images img {
+  max-width: 100%;
+  width: 600px;
+  height: 500px;
+  max-height: 100%;
+  padding: 15px;
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+
+tr {
+  border: 1px solid black;
+  width: 100%;
+}
+
+td {
+  border: 1px solid black;
+  width: auto;
+  padding: 5px;
+  padding-right: 10px;
+}
+
+ul,
+li {
+  padding: 0px;
+  text-align: left;
+}
+
+.li-left {
+  margin-left: 275px;
+}
+
+ul p {
+  font-size: 20px;
+  text-align: center;
+}
+
+nav a {
+  font-style: none;
+  text-decoration: underline;
+  color: black;
+  padding: 15px;
+}
+
+footer {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  display: flex;
+  color: black;
+  text-decoration: underline;
+  padding: 20px;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  color: black;
+  font-size: 35px;
+}
+
+.caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+}
+
+.caption p {
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* 
+SECOND PAGE CODE
+*/
+
+.cooklife {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.food img {
+  width: 600px;
+  max-width: 100%;
+  height: 500px;
+  max-height: 100%;
+  padding: 15px;
+  display: block;
+  margin: auto;
+}
+
+video {
+  width: 600px;
+  max-width: 100%;
+  height: 500px;
+  max-height: 100%;
+  padding: 15px;
+  display: block;
+  margin: auto;
+}
+
+.horizontal {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.alignment {
+  text-align: center;
+}
+
+.alignment img {
+  width: 600px;
+  max-width: 100%;
+  height: 500px;
+  max-height: 100%;
+  padding: 15px;
+  display: block;
+  margin: auto;
+}
